@@ -1,6 +1,5 @@
-# OLED-Secondary-Display-Tutorial
+# OLED-Secondary-Display Raspberry Pi/Jetson
 
-## Raspberry Pi/Jetson OLED-Secondary-Display-Tutorial
 **Jetson series controller**
 
 1. GPIO pin diagram
