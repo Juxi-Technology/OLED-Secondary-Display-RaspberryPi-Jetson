@@ -11,9 +11,8 @@ if len(sys.argv) > 1:
 
 print("i2c_num=", i2c_num)
 
-passwd = "juxi"
 cmd_i2c = "sudo i2cdetect -y -r " + str(i2c_num)
-os.system('echo %s | sudo -S %s' % (passwd, cmd_i2c))
+os.system(cmd_i2c)
 
 
 import Adafruit_SSD1306 as SSD
